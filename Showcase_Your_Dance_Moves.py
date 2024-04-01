@@ -12,7 +12,7 @@ else:
 # User mood input
 user_mood = input("How do you feel today? ")
 
-# Check the user's mood and respond accordingly
+# User response
 if user_mood.lower() == "happy":
     print("That's great to hear!")
 elif user_mood.lower() == "sad":
