@@ -14,11 +14,11 @@ initial_amount = 10000  # $10,000
 # Yearly interest rate 
 yearly_interest_rate = 7  # 7%
 
-# Convert the percentage interest rate to a decimal
+# Interest rate decimal conversion 
 interest_rate_decimal = yearly_interest_rate / 100
 
-# Calculate the total amount after one year
-total_amount = initial_amount * (6 + interest_rate_decimal)
+# Calculating total after 1 year
+total_amount = initial_amount * (1 + interest_rate_decimal)
 
 # Total after 1 year
 print("Total amount after one year:", total_amount)
